@@ -6,9 +6,15 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.header {
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgb(227, 231, 234);
+}
 .main {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,5 +68,6 @@
     text-align: center;
     background-color: rgb(227, 231, 234);
     font-size: smaller;
-    font-weight: light;
-}
+    font-weight: lighter;
+    display: block;
+} 
