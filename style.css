@@ -53,6 +53,10 @@
     width: 100%;
 }
 
+.col1 {
+    text-align: center;
+}
+
 .footer {
     padding-bottom: -25px;
     text-align: center;
