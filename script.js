@@ -1,6 +1,6 @@
 // An array of objects representing the quiz data
 const quizData = [{
-    question: "Which of the following is/are the levels of implemtation of data structure?",
+    question: "Which of the following is/are the levels of implementation of data structure?",
     a: "Abstract level",
     b: "Application level",
     c: "Implementation level",
@@ -388,6 +388,6 @@ document.getElementsByClassName("container")[0].innerHTML = `
     <div class="col1">
         <h3 class="w-100", text-align="center"> Hello, you scored ${correct} / ${total} ! </h3>
     </div>
-`
+` 
 }
 loadQuestion(index);
